@@ -43,35 +43,23 @@ section {
   }
 
   #botonNovedades {
-    background-color: black;
+    background-color: $colorprincipal;
+    color: #e5b2b4;
     font-weight: bold;
-    color: white;
+    
   }
 
   #botonNovedades:hover {
-    background-color: $colorprincipal;
-    color: black;
+    background-color: $colorsecundario;
     font-weight: bold;
+    color: white;
   }
 }
 
 .table {
   color: $colorprincipal;
   font-weight: bold;
-}
-
-.modal-content{
-  background-color: $colorprincipal;
-  font-weight: bold;
-
-  .btn{
-    background-color: black;
-    color: white;
-  }
-
-  .btn:hover{
-    background-color: white;
-    color: black;
-    font-weight: bold;
+  .ingresos{
+    color: green;
   }
 }

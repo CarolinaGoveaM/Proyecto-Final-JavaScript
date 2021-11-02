@@ -3,35 +3,36 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Architects Daughter", cursive;
-  background-color: #002027; }
+  background: #f9d5ef;
+  background: linear-gradient(90deg, #f9d5ef 41%, #f6aea1 47%, #c9eaf1 65%); }
 
 .navbar {
-  background-color: #002027; }
+  background: #d9879b; }
   .navbar .titulo__header {
-    color: #b1738a;
+    color: #4d354c;
     margin-left: 20px; }
   .navbar .titulo__header--index {
     font-weight: bold; }
   .navbar .parrafo__header--index {
     font-style: italic; }
   .navbar .link__color {
-    color: #b1738a; }
+    color: #4d354c; }
 
 hr {
-  color: #b1738a; }
+  color: #4d354c; }
 
 .img_index {
   width: 100%;
   height: 50vh; }
 
 section .titleIndex {
-  color: #b1738a;
+  color: #4d354c;
   text-align: center;
   margin-top: 10px; }
 
 section .linkIndex {
   list-style-type: none;
-  color: #b1738a;
+  color: #4d354c;
   display: block;
   text-align: center;
   font-size: 1.5em; }
@@ -40,106 +41,95 @@ section .linkIndex:hover {
   color: white; }
 
 section .titleNovedades {
-  color: #b1738a;
+  color: #4d354c;
   margin-top: 15px;
   text-align: center;
   font-weight: bold; }
 
 section .parrafoNovedades {
-  color: #b1738a;
+  color: #4d354c;
   text-align: center; }
 
 section .botonNovedades {
   text-align: center; }
 
 section #botonNovedades {
-  background-color: black;
+  background-color: #4d354c;
+  color: #e5b2b4;
+  font-weight: bold; }
+
+section #botonNovedades:hover {
+  background-color: #70445d;
   font-weight: bold;
   color: white; }
 
-section #botonNovedades:hover {
-  background-color: #b1738a;
-  color: black;
-  font-weight: bold; }
-
 .table {
-  color: #b1738a;
+  color: #4d354c;
   font-weight: bold; }
+  .table .ingresos {
+    color: green; }
 
-.modal-content {
-  background-color: #b1738a;
-  font-weight: bold; }
-  .modal-content .btn {
-    background-color: black;
-    color: white; }
-  .modal-content .btn:hover {
-    background-color: white;
-    color: black;
-    font-weight: bold; }
-
-main {
-  background-color: #052f38; }
-  main .titulo__main {
-    text-align: center;
-    padding-top: 15px;
-    color: #b1738a; }
+main .titulo__main {
+  text-align: center;
+  padding-top: 15px;
+  color: #4d354c; }
 
 .store {
-  padding-top: 20px;
-  background-color: #052f38; }
+  padding-top: 20px; }
   .store .item:hover {
     transform: scale(1.1, 1.1); }
   .store .item-title {
     text-align: center;
     font-weight: bold;
-    color: #b1738a; }
+    color: #4d354c; }
   .store .itemCantante {
     text-align: center;
-    color: #b1738a; }
+    color: #4d354c; }
   .store .item-price {
     text-align: center;
     font-weight: bold;
-    color: #b1738a; }
+    color: #4d354c; }
   .store p {
     text-align: center;
     border-bottom: 1px solid black;
     display: inline-block;
     font-weight: bold;
     font-size: 1.5em;
-    color: #b1738a; }
+    color: #4d354c; }
 
 .shopping-cart .text-center {
-  color: #b1738a; }
+  color: #4d354c; }
 
 .shopping-cart h6 {
   font-weight: bold;
   border-bottom: 1px solid black;
-  color: #b1738a; }
+  color: #4d354c; }
 
 .shopping-cart .totalCarrito {
-  color: #b1738a; }
+  color: #4d354c; }
 
 .shopping-cart .shoppingCartTotal {
   font-weight: bold;
   border-bottom: 2px solid black;
-  color: #b1738a; }
+  color: #4d354c; }
 
 .shopping-cart-item-title {
   font-weight: bold;
   margin-left: 15px;
-  color: #b1738a; }
+  color: #4d354c; }
 
 .item-price {
-  color: #b1738a;
+  color: #4d354c;
   font-weight: bold; }
 
 .item-button {
-  background-color: black;
-  color: white;
+  background-color: #4d354c;
+  color: #e5b2b4;
   margin-bottom: 10px; }
 
 .item-button:hover {
-  background-color: #b1738a;
+  background-color: #70445d;
+  color: white;
   font-weight: bold; }
 
 .bottonContainer {
@@ -147,18 +137,31 @@ main {
 
 .buttonComprar {
   margin-left: 10px;
-  background-color: black;
-  color: white; }
+  background-color: #4d354c;
+  color: #e5b2b4; }
 
 .buttonComprar:hover {
-  background-color: #b1738a;
+  background-color: #70445d;
+  color: white;
   font-weight: bold; }
 
 .buttonDelete {
-  background-color: black; }
+  background-color: #4d354c; }
 
 .buttonDelete:hover {
-  background-color: #b1738a; }
+  background-color: #70445d; }
+
+.modal-content {
+  background-color: #4d354c;
+  color: white; }
+  .modal-content .btn {
+    background-color: #4d354c;
+    color: #e5b2b4;
+    font-weight: bold; }
+  .modal-content .btn:hover {
+    background-color: #70445d;
+    color: white;
+    font-weight: bold; }
 
 footer {
-  background-color: #052f38; }
+  background-color: #d9879b; }
