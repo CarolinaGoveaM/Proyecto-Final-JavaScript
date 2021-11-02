@@ -1,0 +1,111 @@
+// DISCOS
+
+main{
+  background-color: #052f38;
+  .titulo__main {
+    text-align: center;
+    padding-top: 15px;
+    color: $colorprincipal;
+    
+  }
+}
+
+
+.store {
+  padding-top: 20px;
+  background-color: #052f38;
+
+  .item:hover{
+    transform: scale(1.1, 1.1);
+  }
+
+  .item-title {
+    text-align: center;
+    font-weight: bold;
+    color: $colorprincipal;
+  }
+
+  .itemCantante {
+    text-align: center;
+    color: $colorprincipal;
+  }
+
+  .item-price {
+    text-align: center;
+    font-weight: bold;
+    color: $colorprincipal;
+  }
+
+  p {
+    text-align: center;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: $colorprincipal;
+  }
+}
+
+.shopping-cart {
+  .text-center{
+    color: $colorprincipal;
+  }
+  h6 {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    color: $colorprincipal;
+  }
+  .totalCarrito{
+    color: $colorprincipal;
+  }
+  .shoppingCartTotal {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    color: $colorprincipal;
+  }
+}
+
+.shopping-cart-item-title {
+  font-weight: bold;
+  margin-left: 15px;
+  color: $colorprincipal;
+}
+
+.item-price{
+  color: $colorprincipal;
+  font-weight: bold;
+}
+
+.item-button {
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.item-button:hover {
+  background-color: $colorprincipal;
+  font-weight: bold;
+}
+
+.bottonContainer {
+  text-align: center;
+}
+
+.buttonComprar {
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+}
+
+.buttonComprar:hover {
+  background-color: $colorprincipal;
+  font-weight: bold;
+}
+
+.buttonDelete {
+  background-color: black;
+}
+
+.buttonDelete:hover {
+  background-color: $colorprincipal;
+}

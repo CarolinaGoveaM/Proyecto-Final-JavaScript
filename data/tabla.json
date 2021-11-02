@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Imagine Dragons",
+        "title": "Night Visions",
+        "status": true
+    },
+    {
+        "id": 2,
+        "name": "Imagine Dragons",
+        "title": "Smoke + Mirrors",
+        "status": false
+    },
+    {
+        "id": 3,
+        "name": "Imagine Dragons",
+        "title": "Evolve",
+        "status": true
+    },
+    {
+        "id": 4,
+        "name": "Imagine Dragons",
+        "title": "Origins",
+        "status": true
+    },
+    {
+        "id": 5,
+        "name": "Imagine Dragons",
+        "title": "Mercury – Act 1",
+        "status": true
+    }
+]

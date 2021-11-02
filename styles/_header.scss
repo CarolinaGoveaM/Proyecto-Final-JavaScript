@@ -1,0 +1,26 @@
+// HEADER
+
+.navbar {
+    background-color: #002027;
+  
+    .titulo__header {
+      color: $colorprincipal;
+      margin-left: 20px;
+    }
+  
+    .titulo__header--index {
+      font-weight: bold;
+    }
+  
+    .parrafo__header--index {
+      font-style: italic;
+    }
+  
+    .link__color {
+      color: $colorprincipal;
+    }
+  }
+  
+hr{
+    color: $colorprincipal;
+}
